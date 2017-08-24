@@ -11,7 +11,7 @@ There are 2 dependency properties that must be used - `DesignWidth` and `DesignH
 Using this panel, you can get scaling for free. Here's an example.
 
 As designed resolution - 1920 x 1080
-![](https://raw.githubusercontent.com/chris84948/ResolutionIndependentPanel/Images/Screenshot.1920x1080.png)
+![](https://raw.githubusercontent.com/chris84948/ResolutionIndependentPanel/master/Images/Screenshot.1920x1080.png)
 
 Scaled down resolution - 800 x 600
-![](https://raw.githubusercontent.com/chris84948/ResolutionIndependentPanel/Images/Screenshot.800x600.png)
+![](https://raw.githubusercontent.com/chris84948/ResolutionIndependentPanel/master/Images/Screenshot.800x600.png)

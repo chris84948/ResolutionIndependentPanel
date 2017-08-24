@@ -8,7 +8,7 @@ This is a panel you can add to your project that will automatically scale all th
 
 There are 2 dependency properties that must be used - `DesignWidth` and `DesignHeight`. These should be the resolution of the window on which you designed it. If you've made your complex UI on a 1080p monitor, use `DesignWidth="1920" DesignHeight="1080"`. ResolutionIndependentPanel will then check for the resolution of the screen it's on at startup and scale the content appropriately.
 
-Using this panel, you can get scaling for free. Here's an example.
+Using this panel, you can get scaling for free. Here's an example (P.S. you might have to actually click and load the images to see the differences) -
 
 As designed resolution - 1920 x 1080
 ![](https://raw.githubusercontent.com/chris84948/ResolutionIndependentPanel/master/Images/Screenshot.1920x1080.png)

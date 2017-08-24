@@ -6,8 +6,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:rip="clr-namespace:ResolutionIndependentPanel;assembly=ResolutionIndependentPanel"
         Title="MainWindow"
-        Width="850"
-        Height="550"
+        d:DesignHeight="1080"
+        d:DesignWidth="1920"
         WindowStartupLocation="CenterScreen"
         mc:Ignorable="d">
 
@@ -37,52 +37,48 @@
                   Grid.Column="0">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*" />
-                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
 
-                <ListView Margin="10,0,5,0"
-                          FontSize="16">
-                    <ListView.Items>
-                        <ListViewItem Content="ITEM 1" />
-                        <ListViewItem Content="ITEM 2" />
-                        <ListViewItem Content="ITEM 3" />
-                        <ListViewItem Content="ITEM 4" />
-                        <ListViewItem Content="ITEM 5" />
-                        <ListViewItem Content="ITEM 6" />
-                        <ListViewItem Content="ITEM 7" />
-                        <ListViewItem Content="ITEM 8" />
-                        <ListViewItem Content="ITEM 9" />
-                    </ListView.Items>
-                </ListView>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
 
-                <StackPanel Grid.Row="1"
-                            Margin="0,0,0,10"
-                            Orientation="Vertical">
-                    <Button Height="50"
-                            Margin="10,10,5,0"
-                            HorizontalAlignment="Stretch"
-                            Content="BUTTON 1"
-                            FontSize="20" />
+                <local:SomeContent Grid.Row="0"
+                                   Grid.Column="0" />
+                <local:SomeContent Grid.Row="1"
+                                   Grid.Column="0" />
+                <local:SomeContent Grid.Row="0"
+                                   Grid.Column="1" />
+                <local:SomeContent Grid.Row="1"
+                                   Grid.Column="1" />
+                <local:SomeContent Grid.Row="0"
+                                   Grid.Column="2" />
+                <local:SomeContent Grid.Row="1"
+                                   Grid.Column="2" />
 
-                    <Button Height="50"
-                            Margin="10,10,5,0"
-                            HorizontalAlignment="Stretch"
-                            Content="BUTTON 2"
-                            FontSize="20" />
-
-                    <Button Height="50"
-                            Margin="10,10,5,0"
-                            HorizontalAlignment="Stretch"
-                            Content="BUTTON 3"
-                            FontSize="20" />
-                </StackPanel>
             </Grid>
 
-            <Grid Grid.Row="1"
-                  Grid.Column="1">
-                <Rectangle Margin="5,0,10,10"
+            <UniformGrid Grid.Row="1"
+                         Grid.Column="1"
+                         Columns="2"
+                         Rows="3">
+
+                <Rectangle Margin="10"
                            Fill="{StaticResource ImageBrush}" />
-            </Grid>
+                <Rectangle Margin="10"
+                           Fill="{StaticResource ImageBrush}" />
+                <Rectangle Margin="10"
+                           Fill="{StaticResource ImageBrush}" />
+                <Rectangle Margin="10"
+                           Fill="{StaticResource ImageBrush}" />
+                <Rectangle Margin="10"
+                           Fill="{StaticResource ImageBrush}" />
+                <Rectangle Margin="10"
+                           Fill="{StaticResource ImageBrush}" />
+            </UniformGrid>
         </Grid>
     </rip:ResolutionIndependentPanel>
 </Window>

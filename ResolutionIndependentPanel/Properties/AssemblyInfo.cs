@@ -7,12 +7,12 @@ using System.Windows;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ResolutionIndependentPanel")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Resolution Independent Panel")]
+[assembly: AssemblyDescription("Panel control for WPF that scales it's content to the resolution of the screen")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Cardinal Glass Industries")]
+[assembly: AssemblyCompany("Chris B Johnson")]
 [assembly: AssemblyProduct("ResolutionIndependentPanel")]
-[assembly: AssemblyCopyright("Copyright © Cardinal Glass Industries 2017")]
+[assembly: AssemblyCopyright("Copyright © Chris B Johnson 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

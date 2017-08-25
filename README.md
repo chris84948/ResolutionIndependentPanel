@@ -20,7 +20,7 @@ There are 2 dependency properties that must be used - `DesignWidth` and `DesignH
 Using this panel, you can get scaling for free. Here's an example (P.S. you might have to actually click and load the images to see the differences) -
 
 UI Comparison - 1920x1080 vs 800x600
-![](https://raw.githubusercontent.com/chris84948/ResolutionIndependentPanel/master/Images/panel%comparison.png)
+![](https://raw.githubusercontent.com/chris84948/ResolutionIndependentPanel/master/Images/panel%20comparison.png)
 
 As designed resolution - 1920 x 1080
 ![](https://raw.githubusercontent.com/chris84948/ResolutionIndependentPanel/master/Images/Screenshot.1920x1080.png)
